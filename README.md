@@ -1,2 +1,2 @@
-# Astrid-Moreno-Sanabria
+# Astrid Moreno-Sanabria
 Journi
