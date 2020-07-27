@@ -1,2 +1,0 @@
-# Astrid Moreno-Sanabria
-Journi
