@@ -10,6 +10,9 @@
             <style>
                 #image{
                     width: 200px;
+                    margin: 5px;
+                    animation: spin 10s ease-out 1s 1 normal;
+                    
                 }
 
                 body{
@@ -17,13 +20,42 @@
                     font-size: 15px;
                     font-family: serif, Arial;
                 }
+                
+                .firstParagraph{
+                    border: dashed 1px black;
+                    margin: 10px;
+                    padding: 10px;
+                }
+
+                #secondParagraph{
+                    border: dotted 1px black;
+                    margin: 5px;
+                    padding: 5px;
+                }
+
+                .span1{
+                    font-weight: 700;
+                }
+
+                @keyframes spin{
+                    0%{
+                        transform: scale(2,3);
+                        transform: rotate(180deg);
+                    }
+                    50%{
+                        transform: rotate(360deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
 
             </style>
 
         </head>
 
         <body>
-            <h2>Siberain Huskies</h2>
+            <h2>Siberian Huskies</h2>
 
             <div class="firstParagraph">
                 <p>The graceful, medium-sized Siberian Husky’s almond-shaped eyes can be either 
@@ -38,8 +70,8 @@
                 <p>As born pack dogs, Siberians enjoy family life and get on well with other dogs; 
                 their innate friendliness render them indifferent watchdogs. This breed is also 
                 energetic and can’t resist chasing small animals, so secure running room is a
-                must. An attractive feature of the breed: Siberians are naturally clean, with 
-                little doggy odor.</p>
+                must. An attractive feature of the breed: <span class="span1"> Siberians are naturally clean, with 
+                little doggy odor.</span></p>
             </div>
 
             <hr>
