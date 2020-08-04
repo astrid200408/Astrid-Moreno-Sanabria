@@ -34,10 +34,10 @@
     </div>
 
 	<!--Navbar-->
-	    <nav class="navbar fixed-top navbar-dark bg-dark">
-		    <a href="#" class="navbar-brand">
-			    <img height="30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt="Journi logo">
-            </a>
+	<nav class="navbar fixed-top navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">
+			<img height="30" src="http://static1.squarespace.com/static/55c4ffcfe4b0b6679a5a2ff5/t/55c927aee4b0389a4f23a090/1594054577323/?format=1500w" alt="Journi logo">
+        </a>
 
 			<!--Mobile-->
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
@@ -68,7 +68,7 @@
 					<a href="#dropdown" class="nav-link active"> Dropdown</a>
 				</li>
 			</ul>
-	    </nav>
+	</nav>
 
 	<!--Jumbotron-->
 	<div class="jumbotron jumbotron-fluid py-5">
@@ -84,50 +84,63 @@
 	</div>
 
 	<!--Container-->
-	    <div class="container-fluid">
+	<div class="container-fluid">
 
-		    <!--Emojis-->
-		        <div id="emojis" class="row">
-			        <h2 class="section-header">Emojis</h2>
-		        </div>
+		<!--Emojis-->
+		<div id="emojis" class="row">
+			<h2 class="section-header">Emojis</h2>
+		</div>
 
-		        <div class="row">
-			        <div id="column-1" class="col-2 text-center">
-				        <img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Tears_Emoji_Icon_2_70x70.png?v=1485573515" alt="emoji">
-                    </div>
+		<div class="row">
+			<div id="column-1" class="col-2 text-center">
+				<img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Tears_Emoji_Icon_2_70x70.png?v=1485573515" alt="emoji">
+            </div>
 
-			        <div id="column-2" class="col-8 text-center">
-				        <img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Crying_Emoji_Icon_2_70x70.png?v=1485577094" alt="emoji">
-                    </div>
+			<div id="column-2" class="col-8 text-center">
+				<img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Crying_Emoji_Icon_2_70x70.png?v=1485577094" alt="emoji">
+            </div>
 
-			        <div id="column-3" class="col-2 text-center">
-				        <img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/files/Kiss_Emoji_Icon_2_70x70.png?5077856381713981195" alt="emoji">
-                    </div>
-		        </div>
+			<div id="column-3" class="col-2 text-center">
+				<img class="icon" width="40" src="https://cdn.shopify.com/s/files/1/1061/1924/files/Kiss_Emoji_Icon_2_70x70.png?5077856381713981195" alt="emoji">
+            </div>
+		</div>
 
-		    <!--Alerts-->
-			    <div id="alerts" class="row">
-				    <h2 class="section-header">Alerts</h2>
+		<!--Alerts-->
+		<div id="alerts" class="row">
+			<h2 class="section-header">Alerts</h2>
+		</div>
+
+		<div class="alert alert-primary alert-dismissible fade show" role="alert">
+			<strong>.alert-primary</strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>         
+            </button> 
+		</div>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+			<strong>.alert-danger</strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>         
+            </button> 
+		</div>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+			<strong>.alert-success</strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>         
+            </button> 
+		</div>
+
+            <!--Button-->
+			    <div id="buttons" class="row">
+				    <h2 class="section-header">Buttons</h2>
 			    </div>
+                <div class="row">
+                    <button class="btn mr-2 btn-primary">Button</button>
+                    <button class="btn mr-2 btn-outline-primary">Outline</button>
+                    <button class="btn mr-2 btn-danger">Danger</button>
+                    <button class="btn mr-2 btn-success">Success</button>
+                    <button class="btn mr-2 mt-2 btn-info btn-block">Block</button>
+                </div>
 
-			    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-				    <strong>.alert-primary</strong>
-				    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                         <span aria-hidden="true">&times;</span>         
-                    </button> 
-			    </div>
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-				    <strong>.alert-danger</strong>
-				    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                         <span aria-hidden="true">&times;</span>         
-                    </button> 
-			    </div>
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-				    <strong>.alert-success</strong>
-				    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                         <span aria-hidden="true">&times;</span>         
-                    </button> 
-			    </div>
 
 			<!--Carousel-->
 
@@ -139,7 +152,7 @@
 
 			<!--Dropdown-->
 
-		</div>
+	</div>
 
 				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 					integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
