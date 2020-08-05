@@ -176,13 +176,14 @@
 
 					<!--Modal-->
 					<div class="modal fade" id="exampleModal">
+
 						<!--
-                Modal Dialog
-                    Modal Content
-                        Modal Header > Modal Title & Close Button
-                Modal Body
-                Modal Footer
-            -->
+                            Modal Dialog
+                                Modal Content
+                                    Modal Header > Modal Title & Close Button
+                            Modal Body
+                            Modal Footer
+                        -->
 
 						<div class="modal-dialog">
 							<div class="modal-content">
@@ -211,14 +212,71 @@
                         <h1 class="section-header">Carousel</h1>
                     </div>
 
+                    <!--
+                        Carousel
+                            Carousel Indicators
+                            Carousel Inner
+                                Carousel Item(s)
+                                Carousel Prev/Next
+                    -->
+
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <!--Carousel Indicators-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <!--Carousel Inner-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption">
+                                    <h5>Slide 1</h5>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-284zVHSSNdU/Xkws-rEkenI/AAAAAAAA1UE/rGYdlnijghw6-wqFh45sYXYFbCZUEngdQCEwYBhgL/s1600/sunset_3.jpg " alt="Picture" class="d-block w-100">
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <h5>Slide 2</h5>
+                                </div>
+                                <img src="https://image.dynamixse.com/crop/900x600/webp.q80.png-lossy-85/https://dynamix-cdn.s3.amazonaws.com/pikearmstrong/armstronggardencom_780232638.jpeg" alt="Picture" class="d-block w-100">
+                            </div>  
+                            
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <h5>Slide 3</h5>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0073/0375/7883/files/Denali.jpg?v=1547210395 " alt="Picture" class="d-block w-100">
+                           </div>
+
+                           <!--Carousel Buttons-->
+                           <a href="#carouselExampleControls" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                           </a>
+                           <a href="#carouselExampleControls" class="carousel-control-next" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon"></span>
+                           </a>
+
+                        </div>
+                    </div>
+
 					<!--Form-->
+                    <div class="row" id="forms">
+                        <h1 class="section-header">Forms</h1>
+                    </div>
 
-
-
-					<!--Collapse-->
-
-					<!--Dropdown-->
-
+                    <div class="row input-type">
+                        <div class="col-sm-6 col-xs-12">
+                            <h6 class="input-type-header">Regular Input</h6>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basicaddon1">1</span>
+                                    <input type="text" class="form-control" placeholder="username">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 
 				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
