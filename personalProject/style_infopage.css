@@ -1,0 +1,16 @@
+body{
+    margin: 25px;
+}
+
+#title{
+    margin-left: 10px;
+}
+
+textarea{
+    height: 200px;
+    width: 400px;
+}
+
+#homeicon{
+    background-color: white;
+}

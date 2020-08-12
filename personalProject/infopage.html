@@ -1,110 +1,213 @@
 <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style_infopage.css">
+	<!--Font-Awesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body class= bg-dark>
+
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-expand-md fixed-top">
+		<a href="project.html">
+			<img src="AMS logo design.jpg" width="40" height="30" class="logo d-inline-block align-top" alt="" loading="lazy">
+        </a>
+			<a class="navbar-brand" id="title" href="#">Personal Website</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+			<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>-->
+
+			<div class="collapse navbar-collapse" id="mainNavbar">
+				<ul class="navbar-nav mr-auto mt-2 mt-md-0 ">
+					<li class="nav-item active" href="#top">
+						<a class="nav-link" href="project.html">
+							<img id="homeicon"src="http://image.flaticon.com/icons/svg/79/79069.svg" alt="Home" class="nav-link" height="40px" width="40px">
+                            </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="infopage.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact-me">Contact Me</a>
+					</li>
+				</ul>
+				<form  class="form-inline my-2 my-md-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search">
+					<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+
+	</nav>
+
+	<!--Jumbotron-->
+    <br>
+	<div class="jumbotron jumbotron-fluid py-5 bg-dark text-light">
+		<div class="container-fluid">
+			<h1 class="display-3">My Personal Website</h1>
+			<h1 class="display-6">Opening Statement</h1>
+			<p> Hello and welcome to my personal website! Here I will be telling you all about me and what I have to
+				offer. This includes my soft skills, career trajectory, personal attributes, etc.</p>
+			<p> If you would like to get in touch please feel free to leave your email and your message in the form at
+				the bottom of the page.</p>
+		</div>
+	</div>
+
+	<!--Collapse Cards-->
+	<div class="accordion" id="accordion">
+		<div class="card">
+			<div class="card-header" id="headingOne">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	                    Soft Skills
+	                </button>
+				</h2>
+			</div>
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+				<div class="card-body">
+					<ul>
+						<li>Empathetic</li>
+						<li>Adaptable</li>
+						<li>Patient</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingTwo">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	                    Personal Attributes
+	                </button>
+				</h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+				<div class="card-body">
+					<ol>
+						<li>Skilled in JavaScript</li>
+						<li>Skilled in Java</li>
+						<li>Skilled in Photoshop</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingThree">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                    Career Trajectory
+	                </button>
+				</h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+				<div class="card-body">
+					In the near future I hope to go to a
+					good college for computer science. I am
+					leaning towards higher education because I
+					love learning and hope to have a good
+					experience. After University I will try to
+					get a job at a well-known company to gain as
+					much experience as I can. I will also be on
+					the look out for opportunities to make my own
+					company or become a bigger part of an already
+					established one.
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingfour">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+	                    Educational Qualifications
+	                </button>
+				</h2>
+			</div>
+			<div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+				<div class="card-body">
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Description</th>
+						</tr>
+	
+						<tr>
+							<td>AP Computer Science Principles</td>
+							<td>I completeted this course and got
+								a 5 on the exam. </td>
+						</tr>
+	
+						<tr>
+							<td>Lead Programmer for Retro 5ive</td>
+							<td>Train new memnbers interested in
+								programming as well as lead programmers to
+								develop code for robot on Robotics team</td>
+						</tr>
+	
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="headingfive">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+	                    Employment and Volunteering History
+	                </button>
+				</h2>
+			</div>
+			<div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
+				<div class="card-body">
+					<ol>
+						<li>JOURNi</li>
+						<li>Imagine(Landscaping)</li>
+					</ol> <br>
+				</div>
+			</div>
+		</div>
+	</div>
     
-    <html lang="en">
-        
-        <head>
-            <meta charset="utf-8">
-            <title> Astrid Moreno-Sanabria </title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-
-        <body>
-
-            <h1>My Personal Website</h1>
-
-            <h2>Opening Statement</h2>
-            <p> Hello and welcome to my personal 
-            website! Here I will be telling you all about 
-            me and what I have to offer. This includes my
-            soft skills, career trajectory, personal 
-            attributes, etc.</p>
-            <p> If you would like to get in touch please
-            feel free to leave your email and your 
-            message in the inputs at the bottom of the 
-            page.</p> <br>
-
-            <h2> Soft Skills</b> </p> </h2>
-            <ul>
-                <li>Empathetic</li>
-                <li>Adaptable</li>
-                <li>Patient</li>
-            </ul> <br>
-
-            <h2>Personal Attributes</h2>
-            <ol>
-                <li>Skilled in JavaScript</li>
-                <li>Skilled in Java</li>
-                <li>Skilled in Photoshop</li>
-            </ol> <br>
-
-            <h2>Career Trajectory</h2>
-            <p> In the near future I hope to go to a 
-            good college for computer science. I am 
-            leaning towards higher education because I 
-            love learning and hope to have a good 
-            experience. After University I will try to 
-            get a job at a well-known company to gain as
-            much experience as I can. I will also be on 
-            the look out for opportunities to make my own 
-            company or become a bigger part of an already 
-            established one.</p> <br>
-
-            <h2>Educational Qualifications</h2>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                </tr>
-                
-                <tr>
-                    <td>AP Computer Science Principles</td>
-                    <td>I completeted this course and got 
-                    a 5 on the exam. </td>
-                </tr>
-
-                 <tr>
-                    <td>Lead Programmer for Retro 5ive</td>
-                    <td>Train new memnbers interested in 
-                    programming as well as lead programmers to 
-                    develop code for robot on Robotics team</td>
-                 </tr>
-
-            </table>
-
-            <h2>Employment and Volunteering History</h2>
-            <ol>
-                <li>JOURNi</li>
-                <li>Imagine(Landscaping)</li>
-            </ol> <br>
-
-            <p>Send me a message!</p>
-            <form>
-                Email :
-                <input 
-                    type="text" 
-                    placeholder="Your email here"
-                    name="email"> <br> <br>
-
-                Message : <br> 
-                <textarea type="textarea"  
-                    placeholder="Add a message here" 
-                    name="message"></textarea>
-
-                <br>
-
-                <button 
-                    type="submit" 
-                    name="submit" 
-                    style=" color: white; 
-                    background: #005191;
-                    border-radius: 30px;
-                    border: none;
-                    height: 30px; 
-                    width: 150px;"> Submit </button>
-
-            </form>
-
+    <br>
+	
+    <div id="contact-me" class="card border-dark" style="width: 100%vh; text-align: center;">
+		<div class="card-body text-light bg-dark">
+			<h5 class="card-title">Contact Me:</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Enter Your Email and Message Below!</h6> <br>
+			<form>
+			    Email :
+			    <input type="text" class="bg-light text-dark" placeholder="Your email here" name="email">
             
-        </body>
-    
-    </html>
+                <br><br>
+        
+                Message: <br>
+                <textarea id="textarea" type="textarea" class="bg-light text-dark" placeholder="Add a message here" name="message"></textarea>
+
+			    <br><br>
+
+			    <button type="submit" name="submit" class="btn btn-outline-primary">Submit</button>
+
+		    </form>
+		</div>
+	</div>
+        
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

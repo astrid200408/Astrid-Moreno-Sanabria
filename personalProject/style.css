@@ -1,4 +1,11 @@
-body {
-    color: blue;
-    font: italic 12px sans-serif;
+.logo{
+    margin: 20px;
+}
+.nav-item{
+    align-items: 50%;
+}
+.container-fluid{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
